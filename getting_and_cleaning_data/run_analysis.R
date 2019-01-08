@@ -14,7 +14,7 @@ library(stringr)
 #############################
 ### Setting up paths to files
 
-folder_path <- "C:/Users/Felipe/Desktop/Data_Science/Get_and_Clean_Data/UCI HAR Dataset"
+folder_path <- "C:/Data_Science/Get_and_Clean_Data/UCI HAR Dataset"
 
 
 
