@@ -8,11 +8,11 @@ This file contains all the code used for the assignment. The file requires for y
 
 The script first reads all the files and checks the structure of the data. The different files are then merged into a single object called ```full_data```, which has the following structure:
 
-subject | activity | variable 1 | variable 2 | ...
-------- | -------- | ---------- | ---------- | ...
-      1 | walking  | (value)    | (value)    | ...
-    ... |      ... |        ... |        ... | ...
-
+subject | activity | variable 1 | variable 2 | ... |
+------- | -------- | ---------- | ---------- | --- |
+      1 | walking  | (value)    | (value)    | ... |
+    ... |      ... |        ... |        ... | ... |
+ |
 Using ```full_data```, a new dataset is built with only the measurements on the mean and standard deviation for each measurement. Since there were no specific instructions as to what these variables were, following the description of the original dataset (found in the file 'features_info.txt') I extracted only the variables that contained either 'mean()' or 'std()' in their name.
 
 Activity names in the original dataset were already informative, but for the sake of length they were set to lower case modified to: "walking", "w_upstairs", "w_downstairs", "sitting", "standing", and "laying".
