@@ -4,7 +4,7 @@ This repository contains three of the files required by the assignment: this Rea
 
 ## R script: run_analysis.R
 
-This file contains all the code used for the assignment. The file requires for you to specify the folder that contains the UCI HAR Dataset (folder_path), and the data must have the same folder structure as the original data downloaded for the assignment. 
+This file contains all the code used for the assignment. The file requires for you to specify the folder that contains the UCI HAR Dataset (```folder_path```), and the data must have the same folder structure as the original data downloaded for the assignment. 
 
 The script first reads all the files and checks the structure of the data. The different files are then merged into a single object called ```full_data```, which has the following structure:
 
