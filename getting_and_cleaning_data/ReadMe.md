@@ -17,6 +17,6 @@ Using ```full_data```, a new dataset is built with only the measurements on the 
 
 Activity names in the original dataset were already informative, but for the sake of length they were set to lower case modified to: "walking", "w_upstairs", "w_downstairs", "sitting", "standing", and "laying".
 
-Variable names were also already informative in the original dataset, but they were modified so that they would not conflict with R. New variable names have the structure: ```domain_measurement_axis```. Domain is a single letter (t or f) denoting whether the measurement is from either time or Fourier transform domains. Measurement is the simply the feature being measured. Axis denotes the respective vector component of 3D measurements (x, y or z). 
+Variable names were also already informative in the original dataset, but they were modified so that they would not conflict with R. New variable names have the structure: ```domain_signal_measurement_axis```. Domain is a single letter (t or f) denoting whether the measurement is from either time or Fourier transform domains. Signal is the simply the signal being captured. Measurement denotes either mean or standard deviation. Axis denotes the respective vector component of 3D signals (x, y or z). 
 
 Last, a new tidy dataset (```tidy_data```) was created, including the average of each variable for each activity and each subject.
