@@ -15,7 +15,7 @@ source("Reading_data.R")
 ###############
 ### Make Plot 4
 
-png(filename = "plot4.png", width = 504, height = 504)
+png(filename = "plot4.png")
 par(mfrow=c(2,2))
 
 plot(hpc2007$Global_active_power, type="l", xlab = NA, ylab = "Global Active Power (kilowatts)", xaxt = 'n')
